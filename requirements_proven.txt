@@ -1,0 +1,13 @@
+cat > requirements_proven.txt << 'EOF'
+# These versions are proven to work together
+click==8.0.4
+typer==0.4.1
+gradio==3.50.2
+huggingface-hub==0.19.4
+langchain-ollama==0.1.0
+langchain-core==0.2.20
+langchain-community==0.2.0
+requests==2.31.0
+python-dotenv==1.0.0
+EOF
+

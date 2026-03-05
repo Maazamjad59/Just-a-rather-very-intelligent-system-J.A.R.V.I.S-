@@ -1,0 +1,24 @@
+cat > requirements_fixed.txt << 'EOF'
+# GRADIO - use 4.14.0 which is stable
+gradio==4.14.0
+
+# Typer and Click - specific versions that work with Python 3.11
+typer==0.7.0
+click==8.1.3
+
+# LangChain - compatible versions
+langchain-ollama==0.1.0
+langchain-core==0.2.20
+langchain-community==0.2.0
+
+# Utilities
+requests==2.31.0
+python-dotenv==1.0.0
+
+#Voice packages (optional - comment out if not needed)
+ SpeechRecognition==3.10.0
+ pyttsx3==2.90
+ gtts==2.5.1
+ pygame==2.5.2
+EOF
+
